@@ -65,9 +65,9 @@ flowchart LR
     F --> G[📊 Insights]
 
     style B fill:#00F5D4,stroke:#00F5D4,color:#000
-    style C fill:#F15BB5,stroke:#F15BB5,color:#000
+    style C fill:#00F5D4,stroke:#00F5D4,color:#000
     style A fill:#2b2d42,stroke:#8d99ae,color:#fff
-    style D fill:#2b2d42,stroke:#8d99ae,color:#fff
+    style D fill:#F15BB5,stroke:#F15BB5,color:#000
     style E fill:#2b2d42,stroke:#8d99ae,color:#fff
     style F fill:#2b2d42,stroke:#8d99ae,color:#fff
     style G fill:#2b2d42,stroke:#8d99ae,color:#fff
@@ -170,9 +170,9 @@ The goal is to segment by **purchasing behavior**. Channel and Region are catego
 - [x] Outlier analysis (IQR) + boxplots
 - [x] Correlation analysis
 - [x] Feature-selection reasoning
-- [ ] **Feature preparation** ← *you are here*
-  - [ ] What problem does **log transformation** solve?
-  - [ ] What problem does **StandardScaler** solve?
+- [x] **Feature preparation** ← *you are here*
+  - [x] What problem does **log transformation** solve?
+  - [x] What problem does **StandardScaler** solve?
   - [ ] Why use **both** before K-Means?
 - [ ] K-Means clustering + choosing *k*
 - [ ] Compare with DBSCAN / hierarchical clustering
