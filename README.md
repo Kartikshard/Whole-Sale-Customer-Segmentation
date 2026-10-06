@@ -185,8 +185,8 @@ The goal is to segment by **purchasing behavior**. Channel and Region are catego
 
 ```bash
 # clone the repo
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Kartikshard/Whole-Sale-Customer-Segmentation.git
+cd Whole-Sale-Customer-Segmentation
 
 # install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
@@ -195,7 +195,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook
 ```
 
-> Replace the placeholders above with your actual repo URL and notebook name.
+
 
 <img src="assets/divider.svg" width="100%"/>
 
